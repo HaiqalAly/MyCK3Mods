@@ -1,0 +1,44 @@
+wakka_ariki = {
+    type = archer_cavalry
+    damage = 32
+    toughness = 15
+    pursuit = 40
+    screen = 40
+
+    terrain_bonus = {
+        forest = { damage = 12 pursuit = 12 }
+        taiga = { damage = 8 pursuit = 12 }
+        hills = { damage = 6 pursuit = 8 }
+        plains = { damage = 8 pursuit = 8 }
+        mountains = { damage = 6 pursuit = 4 }
+    }
+
+    display_terrain_effects = {
+        forest
+        taiga
+        hills
+        plains
+        mountains
+    }
+
+    counters = {
+        heavy_infantry = 1
+        skirmisher = 1
+    }
+
+    can_recruit = {
+        culture = { has_cultural_parameter = unlock_wakka_ariki_horse_archers_units }
+    }
+
+    buy_cost = { gold = light_cavalry_recruitment_cost }
+    low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	provision_cost = @provisions_cost_cavalry_cheap
+
+    stack = 100
+    ai_quality = {
+		value = @cultural_maa_extra_ai_score
+		add = 100
+	}
+	icon = emishi_horse_archers
+}
