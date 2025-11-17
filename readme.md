@@ -15,10 +15,28 @@ A small collection of my personal Crusader Kings III mods, currently featuring c
 - Ainu
 
 ## 📥 Installation
-1. Code → Download ZIP
-2. Extract and move the inner mod folder so it contains `descriptor.mod` and `common/`
-3. Copy folder to: `Documents/Paradox Interactive/Crusader Kings III/mod/`
-4. Enable mod in CK3 Launcher → Mods → Enable
+### 1. Download & Extract
+- Click **Code → Download ZIP**.
+- Extract the ZIP.
+- Inside, you’ll find:
+  - **`halve.mod`**
+  - **`halve_flavor`** folder
+
+### 2. Move to CK3 Mod Folder
+Place both items into: `Documents/Paradox Interactive/Crusader Kings III/mod/`
+
+📁 mod
+ ├─ halve.mod
+ └─ 📁 halve_flavor
+    └─ 📁 common
+
+### 3. Enable in Launcher
+- Open CK3 Launcher → **Mods**
+- Add the mod to your **Playset**
+- Click **Play**
+
+Done!
+
 
 Note: Files such as .gitignore, LICENSE, and README.md are development files and should be ignored or safely deleted from the final install location. 
 
