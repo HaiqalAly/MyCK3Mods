@@ -166,3 +166,89 @@ traditions_karhunkansa = {
 		}
 	}
 }
+
+
+
+traditions_tenores = {
+	category = regional
+
+	layers = {
+		0 = diplo
+		1 = western
+		4 = diplomat.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_latin
+	}
+
+	parameters = {
+		extra_language_cap_2 = yes
+		astute_diplomat_bonus = yes
+		poet_trait_gives_bonuses = yes
+		poet_trait_more_common = yes
+		characters_are_better_court_poets = yes
+		characters_are_better_court_musicians = yes # Also hooked in to increase the Feast opinion bonus
+		better_court_musicians = yes
+	}
+
+	character_modifier = {
+		monthly_court_grandeur_change_mult = 0.15
+		owned_personal_scheme_success_chance_add = 10
+		enemy_hostile_scheme_success_chance_add = -10
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_double_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+traditions_coastal_development = {
+	category = regional
+	
+	layers = {
+		0 = martial
+		1 = western
+		4 = ship.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_latin
+	}
+
+	parameters = {
+		coastal_holdings_give_defensive_bonus = yes
+		next_level_trade_ports = yes
+		maritime_mercantilism_avaricious_bonus = yes
+	}
+
+	character_modifier = {
+		coastal_sea_travel_danger = low_sea_danger_reduction
+		diplomatic_range_mult = 0.2
+	    monthly_income_mult = 0.1
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.3
+	}
+
+	province_modifier = {
+		construction_gold_cost = -0.1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_double_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}

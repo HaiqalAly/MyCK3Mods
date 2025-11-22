@@ -20,3 +20,9 @@
  karhunkansa_flavor:0 "Elite pike warriors said to be blessed by bear-spirits. They excel in forests and rugged lands, forming a disciplined wall that stops even the fiercest cavalry."
 
  culture_parameter_unlock_karhunkansa_pike_units:0 "Can recruit [GetMaA('karhunkansa').GetName] as [men_at_arms|E]"
+
+ traditions_tenores_name:0 "Tenores"
+ traditions_tenores_desc:0 "The tenores are masterful singers whose polyphonic chants echo through the hills and valleys. Their voices weave together in complex harmonies, inspiring courage in battle and unity among their people. The tenores' songs are a living tradition, preserving history and culture through generations."
+
+ traditions_coastal_development_name:0 "Coastal Development"
+ traditions_coastal_development_desc:0 "Living by the sea, these people have honed their skills in fishing, shipbuilding, and trade. Their coastal settlements thrive on maritime resources, and their seafaring expertise allows them to connect with distant lands, bringing wealth and knowledge back to their communities."

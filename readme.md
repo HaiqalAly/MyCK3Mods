@@ -14,6 +14,7 @@ A small collection of my personal Crusader Kings III mods, currently featuring c
 ## 👥 Culture Affected
 - Ainuic
 - Balto Finnic
+- Latin
 
 ## 📥 Installation
 ### 1. Download & Extract
